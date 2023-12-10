@@ -142,7 +142,8 @@ body, html {
 }
 
 .ratings {
-    /* Add styles for your rating stars */
+    padding-top: 4px;
+    font-size: 15px;
 }
 
 .description {
@@ -165,7 +166,7 @@ body, html {
 .number {
     font-size: 24px;
     font-weight: 700;
-    
+    padding-top:15px
 }
 
 .label {
