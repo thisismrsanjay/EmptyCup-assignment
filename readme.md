@@ -2,7 +2,9 @@
 
 🎥 :  https://youtu.be/ODrfiCz9B48
 
+## In line with my assignment, I've ensured that the UI is responsive. 
 
+## To mimic a mobile interface using the screen size settings in inspect menu.
 
 ## Deployement 
 
