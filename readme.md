@@ -20,5 +20,9 @@ https://github.com/thisismrsanjay/EmptyCup-assignment/assets/37665041/ee2f9820-2
 
 
 ### 3.2 .  MongodDb database + Flask Server  at port 5000  + feaching in frontend + ShortlistFunctionality 
-### Fetching from DB: wait few seconds to load video
+### Fetching from DB: wait few seconds to load video or please check recording 4
+#### Demo showcasing data on cloud also altering database data changes the frontend 
+
+
+https://github.com/thisismrsanjay/EmptyCup-assignment/assets/37665041/7903abc2-7941-49db-aa0b-3d551483815b
 
