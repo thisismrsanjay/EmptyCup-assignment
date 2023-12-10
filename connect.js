@@ -12,7 +12,7 @@ function generateStarRating(rating) {
     return starsHtml;
 }
 
-fetch('http://localhost:5000/listings')
+fetch('https://jjk6hz2kxi.execute-api.us-west-2.amazonaws.com/listings') //put your deployment here
     .then(response => response.json())
     .then(listings => {
         const listingsContainer = document.getElementById('listings-container');

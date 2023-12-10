@@ -41,9 +41,9 @@ A step-by-step series of examples that tell you how to get a development environ
     - `index2.html` contains backend in Flask
     - `index3.html` contins backend along with MongoDB database 
 
-### Stopping the Containers
+4. **Stopping the Containers**
 
-To stop the containers, run:
+to stop the containers, run:
 ```
 docker-compose down
 ```
