@@ -1,44 +1,26 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
 
 app = Flask(__name__)
-
-#enabling for all routes one can change it to specific routes 
 CORS(app)
 
+# not securing for demo purposes 
+# should be kept in .env 
+uri = "mongodb+srv://sanjay:sanjay@cluster0.p6dxnhv.mongodb.net/?retryWrites=true&w=majority"
+client = MongoClient(uri, server_api=ServerApi('1'))
+db = client.newdb  
+
+print(db)
 
 @app.route('/listings')
 def get_listings():
-    listings = [
-        {
-            "name": "New Epic Designs",
-            "rating": 1.5,
-            "projects": 57,
-            "years": 8,
-            "price": "$$",
-            "phone_numbers": ["+91 - 9845322853", "+91 - 9845322854"],
-            "shortlisted": False
-        },
-        {
-            "name": "Studio D3",
-            "rating": 4.5,
-            "projects": 43,
-            "years": 6,
-            "price": "$$$",
-            "phone_numbers": ["+91 - 9845322853", "+91 - 9845322854"],
-            "shortlisted": False
-        },
-        {
-            "name": "House of Design",
-            "rating": 4,
-            "projects": 80,
-            "years": 8,
-            "price": "$$",
-            "phone_numbers": ["+91 - 9845322853", "+91 - 9845322854"],
-            "shortlisted": False
-        },
-    ]
+    listings_collection = db.listings  
+    listings = list(listings_collection.find({}))
+    for listing in listings:
+        listing["_id"] = str(listing["_id"])  
+    print(listings)
     return jsonify(listings)
 
 if __name__ == '__main__':
