@@ -6,4 +6,5 @@
 ### 2.  Responsive Replica of  single mobile web page.
 ### Shortlist Functionality Video Demo
 
-<video src="./recording.mp4" >
+
+![recording](https://github.com/thisismrsanjay/EmptyCup-assignment/assets/37665041/ce334ec8-eaf5-4eaf-af5e-5fc0d16b4cf7)
