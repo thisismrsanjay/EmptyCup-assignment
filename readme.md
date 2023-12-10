@@ -1,3 +1,60 @@
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install the software:
+
+- [Docker](https://www.docker.com/get-started)
+- [Docker Compose](https://docs.docker.com/compose/install/) (Included with Docker Desktop on Windows and Mac)
+
+### Installing
+
+A step-by-step series of examples that tell you how to get a development environment running.
+
+1. **Clone the Repository**
+
+    ```
+    git clone https://github.com/thisismrsanjay/EmptyCup-assignment
+    cd EmptyCup-assignment
+    ```
+
+2. **Build and Run with Docker Compose**
+
+    This command will build the Docker images for both the frontend and backend services and start the containers.
+
+    ```
+    docker-compose up --build
+    ```
+
+    To run the containers in the background, add the `-d` flag:
+
+    ```
+    docker-compose up --build -d
+    ```
+
+3. **Accessing the Application**
+
+    - The Flask application will be accessible at `http://localhost:5000`.
+    - In order to get all listings `http://localhost:5000/listings`.
+    - The frontend application will be accessible at `http://localhost/index3.html`.
+    -  `index.html` contains only UI
+    - `index2.html` contains backend in Flask
+    - `index3.html` contins backend along with MongoDB database 
+
+### Stopping the Containers
+
+To stop the containers, run:
+```
+docker-compose down
+```
+
+
+
+# DEMO Iterative 
+
+
+
+
 ### 1.  Responsive Replica of  single mobile web page.
 ### Compared to figma 
 ### Only UI is in : 
