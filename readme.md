@@ -4,7 +4,7 @@
 
 ## In line with my assignment, I've ensured that the UI is responsive. 
 
-## To mimic a mobile interface using the screen size settings in inspect menu.
+## To mimic a mobile interface use the screen size settings in inspect menu.
 
 ## Deployement 
 
@@ -118,6 +118,10 @@ https://github.com/thisismrsanjay/EmptyCup-assignment/assets/37665041/0b52c0e7-3
 
 listings-endpoint : https://jjk6hz2kxi.execute-api.us-west-2.amazonaws.com/listings
 frontend  : https://thisismrsanjay.github.io/EmptyCup-assignment/index3.html 
+
+4.3 Linked github with AWS using zeet so that whenever code changes in Github, it automatically deploys the latest code. 
+![Screenshot 2023-12-11 184702](https://github.com/thisismrsanjay/EmptyCup-assignment/assets/37665041/04e5e96d-d00a-4560-9d09-198b24de37d5)
+
 
 ## Contact me 
 
