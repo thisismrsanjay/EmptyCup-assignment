@@ -41,7 +41,7 @@ body, html {
 .option i {
     display: block;
     margin: auto;
-    font-size: 16px; /* Adjust icon size as needed */
+    font-size: 16px; /* Since icons in figma all have diff size for simplicity i kept same for all */
 }
 
 
@@ -154,13 +154,13 @@ body, html {
 .stats {
     display: flex;
     justify-content: space-between;
-    padding-right: 20px; /* Adjust as needed */
+    padding-right: 20px; 
 }
 .stats > div {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers the contents horizontally */
-    text-align: center; /* Ensures the text is centered */
+    align-items: center; 
+    text-align: center; 
 }
 
 .number {

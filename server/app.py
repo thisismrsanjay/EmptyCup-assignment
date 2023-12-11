@@ -23,5 +23,6 @@ def get_listings():
     print(listings)
     return jsonify(listings)
 
+
 if __name__ == '__main__':
     app.run(debug=False,host='0.0.0.0')
